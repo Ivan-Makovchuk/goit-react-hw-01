@@ -1,0 +1,43 @@
+.containerProfile {
+  border: solid 2px black;
+  border-radius: 2px;
+  min-width: 320px;
+}
+
+.userAvatar {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.userNameProfile {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.textProfile {
+  color: gray;
+}
+
+.profileList {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  opacity: 0.8;
+}
+
+.profileItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileItemText {
+  color: black;
+  font-weight: 600;
+}
+
+.profileItemText.quantity {
+  font-weight: 900;
+}
